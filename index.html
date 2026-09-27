@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Políticas de Kola</title>
 <style>
-  :root { --coral: #FF5A5F; --tinta: #14100F; --tinta-2: #5C5654; --borde: #E8E3E1; }
+  :root { --marca: #FF8A1F; --marca-texto: #BF4E00; --tinta: #14100F; --tinta-2: #5C5654; --borde: #E8E3E1; }
   * { box-sizing: border-box; }
   body {
     margin: 0; padding: 32px 20px 80px;
@@ -21,7 +21,7 @@
   hr { border: 0; border-top: 1px solid var(--borde); margin: 36px 0; }
   blockquote {
     margin: 20px 0; padding: 12px 18px;
-    border-left: 3px solid var(--coral); background: #fff;
+    border-left: 3px solid var(--marca); background: #fff;
     color: var(--tinta-2);
   }
   ul { padding-left: 22px; }
@@ -32,9 +32,9 @@
   table { border-collapse: collapse; width: 100%; margin: 18px 0; font-size: .95rem; }
   th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--borde); }
   th { color: var(--tinta-2); font-weight: 600; }
-  .marca { color: var(--coral); font-weight: 700; letter-spacing: .5px; }
+  .marca { color: var(--marca-texto); font-weight: 700; letter-spacing: .5px; }
   @media (prefers-color-scheme: dark) {
-    :root { --tinta: #F5F1F0; --tinta-2: #A8A09E; --borde: #332E2D; }
+    :root { --tinta: #F5F1F0; --tinta-2: #A8A09E; --borde: #332E2D; --marca-texto: #FF8A1F; }
     body { background: #14100F; }
     blockquote { background: #1D1817; }
     code { background: #241F1E; }
